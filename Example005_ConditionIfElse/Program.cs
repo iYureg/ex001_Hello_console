@@ -9,5 +9,5 @@ if (username.ToLower() == "маша")
 }
 else
 {
-    Console.WriteLine("Привет, "+ username);
+    Console.WriteLine("Привет, " + username);
 }
