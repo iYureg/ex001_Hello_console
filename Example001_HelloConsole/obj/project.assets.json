@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\gb\\mainКурс\\c#\\lesson1\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\gb\\mainКурс\\c#\\lections\\ex001_Hello_console\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
       "projectName": "Example001_HelloConsole",
-      "projectPath": "C:\\Users\\User\\Desktop\\gb\\mainКурс\\c#\\lesson1\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\gb\\mainКурс\\c#\\lections\\ex001_Hello_console\\Example001_HelloConsole\\Example001_HelloConsole.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\gb\\mainКурс\\c#\\lesson1\\Example001_HelloConsole\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\gb\\mainКурс\\c#\\lections\\ex001_Hello_console\\Example001_HelloConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
