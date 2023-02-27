@@ -38,8 +38,6 @@ void PrintImage(int[,] image){
     }
 }
 
-
-
 int[,] pic = 
 {
  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -80,8 +78,21 @@ void FillImage(int row, int col){
 
 int[,] matrix = new int[3, 4];
 Console.Clear();
-PrintImage(pic);
-FillImage(13, 13);
-PrintImage(pic);
+// PrintImage(pic);
+// FillImage(13, 13);
+// PrintImage(pic);
 
+//----------------------------------------------------------------
+double Factorial(int n){
+    if(n == 1) return 1;
+    else return n * Factorial(n - 1);
+}
 
+void PrintFactorials(int n){
+    for (int i = 1; i <= n; i++)
+    {
+        Console.WriteLine($"{i}! = {Factorial(i)}");
+    }
+
+}
+PrintFactorials(40);
