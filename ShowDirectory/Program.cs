@@ -15,7 +15,7 @@ void CatalogInfo(string path, string ident = "")
     DirectoryInfo[] catalogs = catalog.GetDirectories();
     for (int i = 0; i < catalogs.Length; i++)
     {
-        Console.WriteLine($"{itent}{catalogs[i].Name}");
+        Console.WriteLine($"{ident}{catalogs[i].Name}");
         CatalogInfo(catalogs[i].FullName, ident + " ");
     }
     FileInfo[] files = catalog.GetFiles();
